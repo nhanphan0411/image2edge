@@ -9,10 +9,10 @@ Perform edge detection to images
 
 ```
 python3 image2edge.py 
---mode ['one' or 'many']
---width ['output image width']
---height ['output image height']
---input [path to a single image, or path to the image folder']
---output ['path to output folder']
+--mode [str: 'one' or 'many']
+--width [int: 'output image width']
+--height [str: 'output image height']
+--input [str: 'path to a single image, or path to the image folder']
+--output [str: 'path to output folder']
 --blackbg [bool - "whether output image has black background or white background"]
 ```
